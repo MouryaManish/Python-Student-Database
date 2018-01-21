@@ -15,7 +15,7 @@ def addattendance():
 	if (addnewdatabase.dictdatabase.has_key(addattendancestring1)):
 		l=addnewdatabase.dictdatabase[addattendancestring1]['attendance']
 	else:
-		print "Student ID is not present"
+		print "Student ID is not present please register"
 		return
 	addattendancebool=1
 	while(addattendancebool):
