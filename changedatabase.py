@@ -5,7 +5,7 @@ import changefunction
 def functioncall():
 	while (1):
 		print "1. delete\n2. add attendance\n3. add exam marks\n4. add project marks\n5. add assignment marks\n6. edit attendance\n7. edit assignment marks\n8. To go to previous menu\n"
-		changechoiceip=int(raw_input("enter your choice:\n"))
+		changechoiceip=int(raw_input("enter your choice please:\n"))
 		if changechoiceip == 1:
 			changefunction.databasedelete()
 	
